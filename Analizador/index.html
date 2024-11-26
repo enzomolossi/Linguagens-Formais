@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analisador Lexical</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Analisador Lexical</h1>
+
+  <!-- Área de entrada para adicionar e analisar tokens -->
+  <div id="input-area">
+    <input type="text" id="input" placeholder="Digite um texto para análise" />
+    <button id="analyze-btn">Analisar</button>
+  </div>
+
+  <div id="output"></div>
+
+  <!-- Área para adicionar novos tokens -->
+  <div id="add-token">
+    <h2>Adicionar Token</h2>
+    <input type="text" id="new-token" placeholder="Digite o token" />
+    <button id="add-token-btn">Adicionar</button>
+    <ul id="token-list"></ul>
+  </div>
+
+  <!-- Tabela de transição de estados -->
+  <div id="transition-table-container">
+    <h2>Tabela de Transições</h2>
+    <div id="transition-table"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

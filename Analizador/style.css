@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+#input-area {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#output {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+}
+
+#add-token {
+  margin-top: 30px;
+}
+
+#token-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#token-list li {
+  margin: 5px 0;
+}
+
+#token-list button {
+  margin-left: 10px;
+  color: red;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#transition-table-container {
+  margin-top: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f9f9f9;
+}
+
+td {
+  background-color: #fafafa;
+}
+
+.accepted-state {
+  background-color: #2ecc71;
+  color: white;
+}
